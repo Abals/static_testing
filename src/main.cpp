@@ -8,7 +8,7 @@ int main ()
     return 0;
 }
 
-void printString(const char* str)
+void printString(char* str)
 {
     std::cout << str << std::endl;
 }
