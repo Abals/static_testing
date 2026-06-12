@@ -1,6 +1,6 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
-void printString(const char* str);
+void printString(char* str);
 
 #endif // __MAIN_H__
