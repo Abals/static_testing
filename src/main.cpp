@@ -1,7 +1,13 @@
 
 #include <iostream>
+#include "main.h"
 
 int main ()
 {
-    std::cout << "Hello World!" << std::endl;
+    printString("Hello World!");
+}
+
+void printString(char* str)
+{
+    std::cout << str << std::endl;
 }
